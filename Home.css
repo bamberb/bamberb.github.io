@@ -164,10 +164,23 @@
 }
 
 @media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 727px;
+  }
+
+  .u-section-2 .u-list-1 {
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+
   .u-section-2 .u-repeater-1 {
     min-height: 637px;
     grid-auto-columns: 50%;
     grid-template-columns: repeat(2, 50%);
+  }
+
+  .u-section-2 .u-text-6 {
+    font-style: italic;
   }
 }
 
