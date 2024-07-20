@@ -134,33 +134,7 @@
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">Contact Us</h2>
         <div class="u-form u-form-1">
-          
-          
-          <form method="post" name="contact_form" action="contact-form-handler.php" class="form" id="contact">
-<p class="name">
-	<input name="name" type="text" class="feedback-input" id="name" placeholder="Name" required />
-</p>
-<p class="email">
-<input name="email" type="email" class="feedback-input" id="email" placeholder="Email" required />
-</p>
-<p class="phone1">
-<input name="phone1" type="phone1" class="feedback-input" id="phone1" placeholder="Contact Number" />
-</p>
-<p class="text">
-<input name="message" type="textarea" class="feedback-input" id="message" placeholder="Message" required />
-</p>
-<!--
-<p class="text">
-<div class="g-recaptcha" data-sitekey="6LfNKAATAAAAACUv5q_e-GkfOHTgZkJRvDpBddwA"></div>
-</p>-->
-<div class="submit">
-<input type="submit" value="SEND" id="button-blue"/>
-<div class="ease"></div>
-</div>
-</form>
-          
-          <!--
-          <form method="POST" action="contact-form-handler.php" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px" id="contact" name="contact-form">
+          <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px" source="email" name="form">
             <div class="u-form-group u-form-name u-label-none">
               <label for="name-3b9a" class="u-label">Name</label>
               <input type="text" placeholder="Name" id="name" name="name" class="u-input u-input-rectangle" required="required">
@@ -185,8 +159,9 @@
               <label for="message-3b9a" class="u-label">Message</label>
               <textarea placeholder="Enter your message" rows="4" cols="50" id="message" name="message" class="u-input u-input-rectangle" required="required"></textarea>
             </div>
-            <div class="u-align-center u-form-group">
-              <button type="submit" value="Submit" class="u-btn u-btn-submit u-button-style">Submit</button>
+            <div class="u-align-center u-form-group u-form-submit">
+              <a href="#" class="u-btn u-btn-submit u-button-style">Submit</a>
+              <input type="submit" value="submit" class="u-form-control-hidden">
             </div>
             <!--<div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
             <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
