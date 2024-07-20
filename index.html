@@ -134,7 +134,7 @@
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">Contact Us</h2>
         <div class="u-form u-form-1">
-#          <form action="contact-form-handler.php" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px" source="email" name="form">
+          <form method="post" action="contact-form-handler.php" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px" id="contact" name="contact-form">
             <div class="u-form-group u-form-name u-label-none">
               <label for="name-3b9a" class="u-label">Name</label>
               <input type="text" placeholder="Name" id="name" name="name" class="u-input u-input-rectangle" required="required">
@@ -161,7 +161,7 @@
             </div>
             <div class="u-align-center u-form-group u-form-submit">
               <a href="#" class="u-btn u-btn-submit u-button-style">Submit</a>
-              <input type="submit" value="submit" class="u-form-control-hidden">
+              <input type="submit" value="SEND" class="u-form-control-hidden">
             </div>
             <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
             <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
